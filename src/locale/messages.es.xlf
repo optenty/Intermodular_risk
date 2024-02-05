@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2811402900485687088" datatype="html">
+        <source>© Proyecto Intermodular Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="609659111453401348" datatype="html">
+        <source>Inicio<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8865705427696151729" datatype="html">
+        <source>Mis partidas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8244076056810786799" datatype="html">
+        <source>Estadísticas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5797087197643200257" datatype="html">
+        <source>Perfil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="747051681026096043" datatype="html">
+        <source>Cerrar sessión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3342132654606998231" datatype="html">
+        <source>Iniciar sessión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1824343322741992092" datatype="html">
+        <source>Registro</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/components/header/header.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1910017966891513695" datatype="html">
+        <source>Error 404 - Página no encontrada</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/error-page/error-page.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8710840684657196950" datatype="html">
+        <source>Bienvenido a Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="272670672584629285" datatype="html">
+        <source>Cómo Jugar a Risk - Reglas y Estrategias de Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3530684430216978048" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Risk <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> es un juego de mesa que ha resistido la prueba del tiempo, siendo aclamado ahora como un clásico y el primer juego de guerra moderno. Muchos jugadores están descubriendo Risk ahora por primera vez. Con tantas ediciones diferentes y temáticas del juego de mesa, tampoco es sorprendente. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Esta práctica guía enseñará a los jugadores cómo jugar a Risk, permitiéndoles sumergirse en el juego estratégico de dominación mundial. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Pero primero, aquí hay un poco de historia del juego de mesa Risk: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">11,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8983765387630632987" datatype="html">
+        <source>La Historia de Risk - ¿Cuándo Salio Risk?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7651263025738667364" datatype="html">
+        <source> Puede sorprender, pero Risk fue inventado por un cineasta francés, no por un general retirado o un historiador militar, como podríamos esperar. Albert Lamorisse alcanzó la fama en la década de 1940 con una serie de cortometrajes, y más tarde haría también largometrajes. Creó la versión original de Risk en 1957, que entonces se llamaba &quot;La Conquête du Monde&quot; o en inglés, La Conquista del Mundo. Luego, Parker Brothers adquirió el juego de Lamorisse, realizó algunos ajustes en cómo se juega y lanzó Risk tal como lo conocemos ahora en 1959. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8958791847684576268" datatype="html">
+        <source> Avanzamos rápidamente hasta el día de hoy y hay innumerables variaciones del juego. Desde versiones digitales que te permiten jugar en línea con jugadores de todo el mundo, hasta variaciones en películas y programas de televisión, hay muchas opciones para los jugadores que aman el juego. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2784553902615187573" datatype="html">
+        <source>Antes de Comenzar a Jugar a Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4106701787238959701" datatype="html">
+        <source>¿Cuántas Personas Pueden Jugar a Risk?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7752562516487439434" datatype="html">
+        <source>Risk se adapta a diferentes jugadores, atendiendo a entre 2 y 6 jugadores. Si quieres una experiencia intensa y táctica cara a cara, un juego de 2 jugadores te desafiará a igualar tu astucia. Mientras tanto, un juego de 3 o más jugadores añadirá más imprevisibilidad y variables al juego, potencialmente generando una experiencia más caótica.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7469724935016000755" datatype="html">
+        <source>¿Cuánto Tiempo Dura una Partida de Risk?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="513850856756833698" datatype="html">
+        <source>Risk es conocido por ser un juego que puede durar mucho tiempo. Debido al elemento de azar involucrado en el juego, la duración puede variar drásticamente, aunque se espera que el tiempo de juego esté entre 1 y 8 horas, aunque la mayoría de los juegos suelen durar entre 1 y 3 horas.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1595636626902861467" datatype="html">
+        <source>¿Es Risk un Juego de Estrategia?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1172376705718112815" datatype="html">
+        <source>Risk es, sin duda, un juego de estrategia, desafiándote a formar y desarrollar un plan de juego antes de llevarlo a cabo a gran escala. Sin embargo, una estrategia excelente por sí sola podría no ser suficiente para ganar un juego de Risk, aunque sin duda ayudará. Debido a que los ataques y defensas se realizan con el lanzamiento de dados, hay un elemento inherente de suerte involucrado en el juego.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8390181508359787237" datatype="html">
+        <source>¿Se Pueden Formar Alianzas en Risk?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6055296809096158142" datatype="html">
+        <source>Las reglas de Risk no mencionan la formación de alianzas. Por lo tanto, es perfectamente legal formar una alianza con otro jugador durante un juego. Por otro lado, no hay nada en las reglas que proteja una alianza de jugadores y solo puede haber un ganador, lo que significa que es solo cuestión de tiempo antes de que las alianzas se rompan y los jugadores se vuelvan unos contra otros.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8701429755226433763" datatype="html">
+        <source>Preparación del juego y fase inicial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3983630565522835616" datatype="html">
+        <source>Antes de que los jugadores comiencen sus turnos en un juego de Risk, se debe llevar a cabo una etapa de configuración. El primer paso de esto implica que los jugadores elijan su color de jugador. Luego, a los jugadores se les repartirán sus piezas de infantería iniciales, cuya cantidad variará según el número de jugadores:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7617505804537814872" datatype="html">
+        <source>Como jugar a Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7007404474718672805" datatype="html">
+        <source>Fase de colocación en Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8133759075055107276" datatype="html">
+        <source>El jugador que fue el primero durante la etapa de configuración será el primero en jugar. Hay tres fases en cada turno en Risk: colocar ejércitos, atacar y fortificar.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5937556069391206913" datatype="html">
+        <source>Colocación de Ejércitos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8414763618194300978" datatype="html">
+        <source>Para calcular cuánta infantería puede agregar un jugador a su ejército al inicio de su turno, suma el total de sus territorios y divídelo por 3, redondeando hacia abajo. Independientemente de cuántos territorios posea, a los jugadores siempre se les permitirá colocar al menos 3 piezas de infantería. Si un jugador controla un continente completo, recibirá un bono en la cantidad de piezas que puede colocar. Estos bonos son:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7207648487978913473" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>África:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 3<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Asia:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 7<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Australia:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 2<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Europa:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 5<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>NorteAmérica:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 5<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>SudAmérica:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5283763924746896701" datatype="html">
+        <source>Más adelante en el juego, los jugadores acumularán cartas, las cuales podrán intercambiar por más piezas de infantería. Si un jugador tiene 5 o 6 cartas al inicio de su turno, deberá intercambiar un conjunto.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3481656766622472295" datatype="html">
+        <source>Para intercambiar tus cartas por tropas, debes tener tres cartas con iconos coincidentes. Si una carta tiene los tres iconos, se puede usar para hacer coincidir con cualquiera de los iconos. La cantidad de piezas que un jugador recibe por intercambiar sus cartas depende de cuántos conjuntos de cartas se hayan intercambiado:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6172148021675130580" datatype="html">
+        <source>Valor de las Cartas Según los Conjuntos Jugados:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7298998428110590146" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Primer conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 4 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Segundo conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 6 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Tercer conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 8 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cuarto conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 10 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Quinto conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 12 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Sexto conjunto:<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> 15 piezas de infantería<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">66,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5076716026490846703" datatype="html">
+        <source> Después del sexto conjunto, la cantidad de tropas ganadas aumentará en 6 cada vez </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1231561241868748651" datatype="html">
+        <source>Fase de Ataque</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="897924932902545409" datatype="html">
+        <source>Después de que todas las piezas del jugador estén en el tablero, entran en la fase de ataque de su turno. Los jugadores no tienen que atacar durante su turno si no quieren y pueden pasar directamente a la fase de fortificación si lo prefieren.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4869121212901488033" datatype="html">
+        <source>Los jugadores pueden atacar cualquier territorio con el que su territorio comparta una frontera, o que esté conectado con una línea discontinua en regiones a través del mar de uno a otro. Un jugador debe tener al menos 2 piezas en el territorio desde el que están atacando para lanzar un asalto.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3151643016749692228" datatype="html">
+        <source>Al comenzar un ataque, un jugador debe seleccionar el territorio que está atacando, así como el territorio desde el que está atacando. El resultado de los ataques se decide lanzando dados. (en nuestro caso, simularemos una tirada de dados)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4077802829667763698" datatype="html">
+        <source>El atacante puede decidir con cuántos dados atacar, pero debe tener tantas piezas libres en el ejército atacante como dados utilice. Por ejemplo, si están atacando desde un territorio con solo 2 piezas, solo pueden usar 1 dado. El defensor tiene la opción de lanzar 1 o 2 dados, pero igualmente debe tener tantas piezas como dados lanzados.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8929603366155234386" datatype="html">
+        <source>Los jugadores deben decir cuántos dados están usando mientras hacen cada lanzamiento y deben lanzar al mismo tiempo. Los valores lanzados se comparan en orden de mayor a mayor. Si hay un empate, gana el defensor. Los jugadores eliminan piezas por cada dado que supere a su dado. Entre cada lanzamiento, el jugador atacante puede decidir si continuar o romper el compromiso. Si destruyen todas las piezas defensoras, toman el territorio.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2346281106764971347" datatype="html">
+        <source>Una vez que se toma el territorio, pueden decidir cuántas piezas colocan allí, pero deben dejar al menos una atrás en el territorio desde el que atacaron. Si atacaron con varios dados en el último turno, deben colocar al menos esa cantidad de piezas en el nuevo territorio. Si un jugador captura al menos un territorio, puede sacar una carta de Risk del mazo. Los jugadores nunca sacarán más de una carta por turno.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7542963478314624148" datatype="html">
+        <source>Si durante tu ataque tomas el último territorio de un jugador, son eliminados del juego y adquieres todas las cartas que acumularon hasta ese momento. Si eso lleva la cantidad de cartas que tienes a más de 6 cartas, deberás intercambiar un conjunto de inmediato.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8257947790023971861" datatype="html">
+        <source>Fase de Fortificación</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8061086839324907898" datatype="html">
+        <source>Fortificar es la fase final durante un turno de Risk. Esta fase permite a los jugadores mover cualquier cantidad de sus tropas a cualquier territorio adyacente, sin embargo, esto solo se puede hacer una vez por turno. Siempre debe quedar al menos una pieza en el territorio del que se está moviendo la infantería.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5558907684641501951" datatype="html">
+        <source>Objetivo para Ganar la Partida:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3662737891575402041" datatype="html">
+        <source> El objetivo para ganar un juego de Risk es increíblemente sencillo. Debes eliminar a todos los jugadores enemigos y controlar los 42 territorios en el tablero. Un jugador queda fuera del juego cuando pierde su último territorio restante y su última pieza es retirada del tablero. Al final, solo puede haber un ganador. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6448746587250790164" datatype="html">
+        <source>Consejos y Trucos para Dominar en Risk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6674813424001150184" datatype="html">
+        <source> Lo grandioso de Risk es que no es un juego resuelto. No hay una estrategia única que te garantice la victoria cada vez, lo que te permite experimentar con diferentes estrategias y técnicas para jugar y ganar el juego. Sin embargo, hay algunos consejos y trucos de Risk que podemos compartir contigo y que podrían mejorar tus posibilidades de ganar el juego. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="263300419713249906" datatype="html">
+        <source>Tener una Estrategia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3474899224640223855" datatype="html">
+        <source> Si eres fanático de los juegos de estrategia, sabrás que jugar de manera reactiva generalmente significa un boleto de ida hacia la derrota. Siempre es mejor trabajar con una estrategia en mente, buscando lograr objetivos más grandes que refuercen tus fuerzas y te lleven a la victoria. Esta estrategia puede estar compuesta por una serie de objetivos a corto plazo que te ayudarán a mantener tu enfoque durante el juego. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3348150655453881670" datatype="html">
+        <source>Intentar Anticipar las Estrategias de tus Oponentes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7320482962978559513" datatype="html">
+        <source> Cada jugador experto de Risk estará trabajando hacia algún tipo de estrategia general o plan de juego, ya sea siguiendo una serie de objetivos a corto plazo o trabajando hacia un plan a largo plazo. Algunos de estos pueden ser más evidentes, como intentar conquistar un continente, mientras que otros pueden ser más sutiles. Trata de descubrir qué está haciendo tu oponente y frustrar sus objetivos. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5927732652532775122" datatype="html">
+        <source>Tener un Plan B</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">125,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5073660065371471631" datatype="html">
+        <source> Las estrategias que ponen todos tus recursos en un solo lugar son muy arriesgadas. Si dedicas todas tus fuerzas a tomar un continente y fallas, perdiendo la mayor parte de tus fuerzas, es posible que nunca te recuperes. Por lo tanto, es bueno sopesar el riesgo versus la recompensa de cada situación y tener un plan de respaldo en caso de que tu estrategia principal se desmorone. Mantén algunas fuerzas en reserva para que, si tu enemigo toma un territorio periférico, tengas la fuerza para un contraataque exitoso. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8933844041941649417" datatype="html">
+        <source>Ser Cauteloso con las Alianzas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9039927871190959941" datatype="html">
+        <source> Las alianzas pueden cambiar el rumbo de un juego, contrarrestando a un jugador poderoso que amenaza con monopolizar el tablero. Pero también están llenas de peligros. Si haces un acuerdo de caballeros para no atacarse mutuamente y dejas tus fronteras indefensas, no habrá nada que impida que tu actual aliado invada ese territorio. Sin embargo, hacer una alianza y luego atacar a tu aliado cuando esté en su punto más débil podría darte el impulso para lograr la victoria. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8955584994524835132" datatype="html">
+        <source>Esperar para Intercambiar tus Cartas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">139,140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1346561766704071588" datatype="html">
+        <source>Cuantos más conjuntos de cartas se intercambien, más tropas recibirá un jugador por intercambiarlas. Por lo tanto, no querrás ser uno de los primeros en intercambiar tus cartas, ya que esto te dará muy pocas tropas. Sin embargo, esto debe equilibrarse. Si esperas demasiado y cedes demasiadas tropas y territorios, el intercambio de tus cartas podría no ser suficiente para cambiar el rumbo del juego.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3981647236718415625" datatype="html">
+        <source>Conclusión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">145,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5239956279140778920" datatype="html">
+        <source>Si nunca has jugado a Risk antes, es un juego complejo y envolvente que ofrecerá desafíos, entretenimiento y recompensas en igual medida. Los fanáticos de los juegos de mesa, tácticas y estrategia que aún no han jugado este juego deberían probarlo y descubrir cuánto riesgo están dispuestos a asumir.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/risk_app/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">147,148</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

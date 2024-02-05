@@ -1,0 +1,27 @@
+
+.contenedor{
+  background-color: #ffc880; /* Cambia el color de fondo según tus preferencias */}
+
+h1{
+  margin: 0;
+  color: black;
+  text-align: center;
+  padding: 1.5rem;
+
+  /* Agrega estas propiedades para centrar verticalmente el contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,h3{
+  text-align: center;
+}
+
+.contPersonalizado{
+  width: 55%;
+  margin-top: 1rem;
+}
+img{
+  width: 100%;
+}

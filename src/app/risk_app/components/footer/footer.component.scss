@@ -1,0 +1,32 @@
+body {
+  padding-bottom: 60px; /* Altura del footer */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #b94400; /* Color de fondo del footer */
+  padding: 10px 0;
+  text-align: center;
+}
+
+a{
+  margin-left: 10px;
+  color: white !important;
+}
+svg{
+  padding: 0;
+  margin-right: 5px;
+}
+.footer span{
+  color: white !important;
+
+}
+.footer{
+  z-index: 10;
+}
+
+.octicon-mark-github{
+  margin-right: 1rem;
+}
