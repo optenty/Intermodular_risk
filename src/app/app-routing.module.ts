@@ -32,10 +32,10 @@ const routes: Routes = [
     //guards
     loadChildren: ()=> import('./risk_app/auth/auth.module').then(m=>m.AuthModule)
   },
-  {
-    path: '**',
-    redirectTo: "error"
-  }
+  // {
+  //   path: '**',
+  //   redirectTo: "error"
+  // }
 ];
 
 @NgModule({

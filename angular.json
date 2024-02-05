@@ -7,9 +7,9 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "ca-ES":{
+          "es":{
             "translation": "src/locale/messages.es.xlf",
-            "baseHref": "es-ES"
+            "baseHref": "es/"
           }
         }
       },
@@ -33,6 +33,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "en-US","es"
+            ],
             "outputPath": "dist/risk",
             "index": "src/index.html",
             "browser": "src/main.ts",
