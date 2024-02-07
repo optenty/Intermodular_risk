@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {AbstractControl, FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {AuthService} from "../../service/auth.service";
+import {IUser} from "../../../interfaces/User";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-register-page',
@@ -11,13 +13,23 @@ export class RegisterPageComponent implements OnInit{
 
   myForm!: FormGroup;
 
-  constructor(private fb: FormBuilder, private authService: AuthService) {}
+
+  user: IUser = {
+    nickname: '',
+    nombre: '',
+    email: '',
+    password: '',
+
+  };
+
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router,) {}
 
   ngOnInit() {
     this.myForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(6)]],
       username: ['', [Validators.required, Validators.minLength(3)]],
+      nickname: ['', [Validators.required, Validators.minLength(3)]],
       confirmPassword: ['', Validators.required],
     },{
       validators: this.passwordMatchValidator,
@@ -34,61 +46,36 @@ export class RegisterPageComponent implements OnInit{
   }
 
   register() {
-    //
-    // if (this.myForm.valid) {
-    //   console.log('Formulario válido:', this.myForm.value);
-    //
-    //   const email = this.myForm.value.email;
-    //   const password = this.myForm.value.password;
-    //   const username = this.myForm.value.username;
-    //   const preferencias = this.myForm.value.preferencias;
-    //   this.authService.signUp(email, password).subscribe({
-    //     next: (response) => {
-    //       console.log('Registro exitoso', response);
-    //       console.log(username);
-    //       this.authService.updateUsername(response.data.user.id, username).subscribe({
-    //         next: () => {
-    //           console.log('Obtención de username exitosa:');
-    //         },
-    //         error: (error) => {
-    //           console.error('Error al obtener el username:', error);
-    //         },
-    //         complete: () => {
-    //           console.log('La suscripción ha sido completada.');
-    //         }
-    //       });
-    //       if(preferencias!==''){
-    //         this.authService.updatePreferencias(response.data.user.id, preferencias).subscribe({
-    //           next: () => {
-    //             console.log('Obtención de preferencias exitosa:');
-    //           },
-    //           error: (error) => {
-    //             console.error('Error al obtener las preferencias:', error);
-    //           },
-    //           complete: () => {
-    //             console.log('La suscripción ha sido completada.');
-    //           }
-    //         });
-    //       }
-    //
-    //       // Redirigir a la página deseada u otras acciones necesarias
-    //     },
-    //     error: (error) => {
-    //       console.error('Error en el registro', error);
-    //       // Mostrar un mensaje de error al usuario, si es necesario
-    //     },
-    //     // Puedes incluir complete si es necesario
-    //     complete: () => {
-    //       console.log('La suscripción ha sido completada.');
-    //       alert('Revisa el correo electrónico para confirmar el registro')
-    //     }
-    //   });
-    //
-    //
-    //
-    // } else {
-    //   console.log('Formulario no válido. Verifica los campos.');
-    // }
+    if (this.myForm.valid) {
+      console.log('Formulario válido:', this.myForm.value);
+
+      this.user.nickname= this.myForm.value.nickname;
+      this.user.password = this.myForm.value.password;
+      this.user.email = this.myForm.value.email;
+      this.user.nombre = this.myForm.value.username;
+
+
+      this.authService.registerUser(this.user).subscribe({
+        next: (response) => {
+          console.log('Registro exitoso', response);
+          this.router.navigate(["/"])
+          // Redirigir a la página deseada u otras acciones necesarias
+        },
+        error: (error) => {
+          console.error('Error en el registro', error);
+          // Mostrar un mensaje de error al usuario, si es necesario
+        },
+        // Puedes incluir complete si es necesario
+        complete: () => {
+          console.log('La suscripción ha sido completada.');
+        }
+      });
+
+
+
+    } else {
+      console.log('Formulario no válido. Verifica los campos.');
+    }
   }
 
 }
