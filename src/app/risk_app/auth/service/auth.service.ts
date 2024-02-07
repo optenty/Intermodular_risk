@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {IUser} from "../../interfaces/User";
 import {Observable} from "rxjs";
 
@@ -18,7 +18,8 @@ export class AuthService {
   existeCampURL = `${this.apiUrl}existeCampamento`
 
   loginUser(user: IUser):Observable<object>{
-    return this.http.post(`${this.userURLspring}`, user);
+    const headers = new HttpHeaders().set('Origin', 'http://localhost:4200'); // Reemplaza esto con la URL correcta de tu aplicación Angular
+    return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
   }
 
   registerUser(user: IUser){
