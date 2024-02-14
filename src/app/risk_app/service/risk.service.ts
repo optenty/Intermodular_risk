@@ -25,4 +25,19 @@ export class RiskService {
 
 
 
+  crearSala(){
+    this.http.get<Sala>(this.url+'/crearsala').subscribe(response=>{
+      console.log(response);
+      return response;
+    })
+  }
+
+  addPlayer(){
+    this.http.get<Sala>(this.url+'/addplayer').subscribe(response=>{
+      console.log(response);
+      return response;
+    })
+  }
+
+
 }

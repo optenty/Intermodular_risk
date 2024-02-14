@@ -9,4 +9,9 @@ import {Sala} from "../../interfaces/Sala";
 export class SalasComponent {
   @Input()
   public salaList: Sala[]=[];
+
+  crearSala(){
+
+  }
+
 }
