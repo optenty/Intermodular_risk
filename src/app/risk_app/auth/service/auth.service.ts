@@ -20,7 +20,7 @@ export class AuthService {
   loginUser(user: IUser):Observable<object>{
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'Authorization' : 'Bearer '
+      'Authorization' : 'Bearer'
     });
     // return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
     return this.http.post(`${this.userURLspring}`, user);
