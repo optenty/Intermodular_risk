@@ -1,16 +1,31 @@
 
 <div class="container mt-5">
   <h2 class="mb-4">Listado de Salas</h2>
-  <table class="table table-bordered">
+  <table class="table table-bordered customTable">
     <thead class="thead-dark">
     <tr>
-      <th scope="col" class="col-9 text-center">Salas</th>
+      <th scope="col" class="col-8 text-center">Salas</th>
       <th scope="col" class="text-center">Jugadores</th>
+      <th scope="col" class="text-center">Unirme</th>
     </tr>
     </thead>
     <tbody>
 
-      <risk-sala [sala] = sala *ngFor="let sala of salaList"></risk-sala>
+    <tr *ngFor="let sala of salaList">
+      <td class="align-middle">Sala número: {{ sala.id_sala }}</td>
+      <td>
+        <!-- Mostrar los jugadores de la sala -->
+        Jugador 1: {{ sala.jugador1 }} <br>
+        Jugador 2: {{ sala.jugador2 }} <br>
+        Jugador 3: {{ sala.jugador3 }} <br>
+        Jugador 4: {{ sala.jugador4 }}
+      </td>
+      <td class="align-middle">
+        <button class="btn btn-success botonEspectacular">
+          Añadir
+        </button>
+      </td>
+    </tr>
 
     </tbody>
   </table>

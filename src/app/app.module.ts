@@ -12,14 +12,12 @@ import { GraphPageComponent } from './risk_app/pages/graph-page/graph-page.compo
 import { MygamesPageComponent } from './risk_app/pages/mygames-page/mygames-page.component';
 import { RiskPageComponent } from './risk_app/pages/risk-page/risk-page.component';
 import { SalasComponent } from './risk_app/components/salas/salas.component';
-import { SalaComponent } from './risk_app/components/salas/sala/sala.component';
 import { SalasPageComponent } from './risk_app/pages/salas-page/salas-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SalasComponent,
-    SalaComponent,
     SalasPageComponent,
   ],
   imports: [
