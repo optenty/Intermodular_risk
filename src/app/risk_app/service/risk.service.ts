@@ -15,7 +15,8 @@ export class RiskService {
 
 
 
-  getSalas(){
+  // @ts-ignore
+  getSalas():Sala[]{
      this.http.get<Sala>(this.url+'/salas').subscribe(response=>{
        console.log(response);
        return response;
