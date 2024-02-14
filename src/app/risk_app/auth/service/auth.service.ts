@@ -22,6 +22,7 @@ export class AuthService {
       'Content-Type': 'application/json',
       'Authorization' : 'Bearer'
     });
+    //<<
     // return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
     return this.http.post(`${this.userURLspring}`, user);
   }
