@@ -5,6 +5,7 @@ import {ErrorPageComponent} from "./risk_app/pages/error-page/error-page.compone
 import {MygamesPageComponent} from "./risk_app/pages/mygames-page/mygames-page.component";
 import {GraphPageComponent} from "./risk_app/pages/graph-page/graph-page.component";
 import {RiskPageComponent} from "./risk_app/pages/risk-page/risk-page.component";
+import {SalasPageComponent} from "./risk_app/pages/salas-page/salas-page.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'error',
     component: ErrorPageComponent,
+  },
+  {
+    path: 'lobby',
+    component: SalasPageComponent,
   },
   {
     path: 'auth',

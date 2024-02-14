@@ -1,0 +1,17 @@
+
+<div class="container mt-5">
+  <h2 class="mb-4">Listado de Salas</h2>
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col" class="col-9 text-center">Salas</th>
+      <th scope="col" class="text-center">Jugadores</th>
+    </tr>
+    </thead>
+    <tbody>
+
+      <risk-sala [sala] = sala *ngFor="let sala of salaList"></risk-sala>
+
+    </tbody>
+  </table>
+</div>

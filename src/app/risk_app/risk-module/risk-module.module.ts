@@ -28,7 +28,9 @@ import {RiskPageComponent} from "../pages/risk-page/risk-page.component";
     ErrorPageComponent,
     GraphPageComponent,
     MygamesPageComponent,
-    RiskPageComponent
-    ]
+    RiskPageComponent,
+    HeaderComponent,
+    FooterComponent
+  ]
 })
 export class RiskModuleModule { }
