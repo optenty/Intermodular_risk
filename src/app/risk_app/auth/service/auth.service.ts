@@ -18,8 +18,12 @@ export class AuthService {
   existeCampURL = `${this.apiUrl}existeCampamento`
 
   loginUser(user: IUser):Observable<object>{
-    const headers = new HttpHeaders().set('Origin', 'http://localhost:4200'); // Reemplaza esto con la URL correcta de tu aplicación Angular
-    return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization' : 'Bearer '
+    });
+    // return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
+    return this.http.post(`${this.userURLspring}`, user);
   }
 
   registerUser(user: IUser){
