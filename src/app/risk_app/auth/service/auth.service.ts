@@ -10,9 +10,9 @@ export class AuthService {
 
   public isLogged = false;
 
-  private loadSesssionStorage():void{
-    if(sessionStorage.getItem('session')){
-      this.isLogged=true;
+  private loadSesssionStorage(): void {
+    if (sessionStorage.getItem('session')) {
+      this.isLogged = true;
     }
   }
 
@@ -20,17 +20,17 @@ export class AuthService {
     this.loadSesssionStorage();
   }
 
-  private apiUrl = "http://localhost:8090/api/auth/"
+  private apiUrl = "http://localhost:8090/auth/"
 
 
   userURLspring = `${this.apiUrl}login`;
   resgistreURL = `${this.apiUrl}nuevo`;
   existeCampURL = `${this.apiUrl}existeCampamento`
 
-  loginUser(user: IUser):Observable<object>{
+  loginUser(user: IUser): Observable<object> {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'Authorization' : 'Bearer'
+      'Authorization': 'Bearer'
     });
     //<<
     // return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
@@ -38,11 +38,22 @@ export class AuthService {
     return this.http.post(`${this.userURLspring}`, user);
   }
 
-  registerUser(user: IUser){
+  registerUser(user: IUser) {
     return this.http.post<IUser>(`${this.resgistreURL}`, user);
   }
 
+  getToken() {
+
+    if (this.isLogged) {
+
+      let obj = JSON.parse(sessionStorage.getItem('session') || '{}');
+
+      console.log(obj);
+
+      return obj.token;
+
+    }
 
 
-
+  }
 }

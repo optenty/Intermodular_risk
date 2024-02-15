@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Sala} from "../interfaces/Sala";
 import {response} from "express";
 
@@ -16,13 +16,15 @@ export class RiskService {
 
 
   // @ts-ignore
-  getSalas():Sala[]{
-     this.http.get<Sala>(this.url+'/salas').subscribe(response=>{
-       console.log(response);
-       return response;
-     })
-  }
+  getSalas(token: string): Observable<Sala[]> {
+    // Configurar los encabezados de la solicitud con el token
+    const headers = new HttpHeaders({
+      'Authorization': 'Bearer '+token // Suponiendo que se use un esquema de autenticación Bearer
+    });
 
+    // Realizar la solicitud HTTP con los encabezados configurados
+    return this.http.get<Sala[]>(this.url + '/salas', { headers: headers });
+  }
 
 
   crearSala(){

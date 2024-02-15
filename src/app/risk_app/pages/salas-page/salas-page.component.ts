@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {RiskService} from "../../service/risk.service";
 import {Sala} from "../../interfaces/Sala";
+import {AuthService} from "../../auth/service/auth.service";
 
 @Component({
   selector: 'app-salas-page',
@@ -9,7 +10,13 @@ import {Sala} from "../../interfaces/Sala";
 })
 export class SalasPageComponent implements OnInit{
 
-  constructor(public riskService: RiskService) {
+
+  public token: string | null = null;
+
+
+  constructor(public riskService: RiskService, public authService: AuthService) {
+
+    this.token = authService.getToken();
   }
 
   ngOnInit() {
@@ -36,7 +43,7 @@ export class SalasPageComponent implements OnInit{
   ]
   salasApi(){
     // @ts-ignore
-    this.salas = this.riskService.getSalas;
+    this.salas = this.riskService.getSalas(this.token);
   }
 
 }
