@@ -10,14 +10,14 @@ export class AuthService {
 
   public isLogged = false;
 
-  private loadLocalStorage():void{
-    if(localStorage.getItem('session')){
+  private loadSesssionStorage():void{
+    if(sessionStorage.getItem('session')){
       this.isLogged=true;
     }
   }
 
   constructor(private http: HttpClient) {
-    this.loadLocalStorage();
+    this.loadSesssionStorage();
   }
 
   private apiUrl = "http://localhost:8090/api/auth/"
