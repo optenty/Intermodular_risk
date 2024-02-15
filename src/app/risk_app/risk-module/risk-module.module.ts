@@ -7,6 +7,7 @@ import {ErrorPageComponent} from "../pages/error-page/error-page.component";
 import {GraphPageComponent} from "../pages/graph-page/graph-page.component";
 import {MygamesPageComponent} from "../pages/mygames-page/mygames-page.component";
 import {RiskPageComponent} from "../pages/risk-page/risk-page.component";
+import {MapaComponent} from "../components/mapa/mapa.component";
 
 
 
@@ -18,7 +19,8 @@ import {RiskPageComponent} from "../pages/risk-page/risk-page.component";
     ErrorPageComponent,
     GraphPageComponent,
     MygamesPageComponent,
-    RiskPageComponent
+    RiskPageComponent,
+    MapaComponent
   ],
   imports: [
     CommonModule
@@ -30,7 +32,8 @@ import {RiskPageComponent} from "../pages/risk-page/risk-page.component";
     MygamesPageComponent,
     RiskPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MapaComponent
   ]
 })
 export class RiskModuleModule { }

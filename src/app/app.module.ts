@@ -13,6 +13,7 @@ import { MygamesPageComponent } from './risk_app/pages/mygames-page/mygames-page
 import { RiskPageComponent } from './risk_app/pages/risk-page/risk-page.component';
 import { SalasComponent } from './risk_app/components/salas/salas.component';
 import { SalasPageComponent } from './risk_app/pages/salas-page/salas-page.component';
+import { MapaComponent } from './risk_app/components/mapa/mapa.component';
 
 @NgModule({
   declarations: [

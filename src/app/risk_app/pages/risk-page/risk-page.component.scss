@@ -12,3 +12,73 @@
   height: 100vh;
   background-color: #ffc880; /* Cambia el color de fondo según tus preferencias */
 }
+
+.superior{
+  display: flex;
+  flex-direction: column;
+}
+
+.inferior{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.jugador{
+  width: 30%;
+}
+
+.personalizado{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.player1{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  background-color: #1da1f2;
+  color: white;
+  text-align: center;
+}
+
+.player2{
+  background-color: #fd0c0c;
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
+
+.player3{
+  background-color: #11b400;
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+
+.player4{
+  background-color: #9a00b2;
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+}
+
+.player{
+  width: 150px;
+  height: 150px;
+}
+
+.text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
