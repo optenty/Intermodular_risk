@@ -8,7 +8,17 @@ import {Observable} from "rxjs";
 })
 export class AuthService {
 
-  constructor(private http: HttpClient) { }
+  public isLogged = false;
+
+  private loadLocalStorage():void{
+    if(localStorage.getItem('session')){
+      this.isLogged=true;
+    }
+  }
+
+  constructor(private http: HttpClient) {
+    this.loadLocalStorage();
+  }
 
   private apiUrl = "http://localhost:8090/api/auth/"
 
@@ -24,6 +34,7 @@ export class AuthService {
     });
     //<<
     // return this.http.post(`${this.userURLspring}`, user,  { headers: headers });
+
     return this.http.post(`${this.userURLspring}`, user);
   }
 
@@ -33,8 +44,5 @@ export class AuthService {
 
 
 
-  isLogged() {
-    return false;
-    // return sessionStorage.getItem('session') !== null;
-  }
+
 }

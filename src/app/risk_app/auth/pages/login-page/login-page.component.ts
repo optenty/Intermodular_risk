@@ -35,6 +35,7 @@ export class LoginPageComponent implements OnInit{
       this.authService.loginUser(this.user).subscribe({
         next: (response) => {
           console.log('Inicio de sesión exitoso', response);
+          sessionStorage.setItem("session",response.toString());
           this.router.navigate(['/']);
         },
         error: (error) => {
