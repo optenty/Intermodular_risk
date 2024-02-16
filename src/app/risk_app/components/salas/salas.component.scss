@@ -1,13 +1,133 @@
-.botonEspectacular{
-  width: 100%;
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-table.table{
-  background-color: #ffc880 !important;
-
+table.customTable tr > th{
+  background-color: #4d0933;
+  color: white;
 }
 
-table.customTable{
-  background-color: #ffc880 !important;
-
+table.customTable tr > td {
+  background-color: #b94400;
+  color: white;
 }
+
+
+
+
+
+.botonEspectacular{  }
+
+.botonEspectacular:hover{
+  animation: botonAHover 1s infinite;
+}
+
+.botonEspectacular:active{
+  animation: botonAPulsado 0.5s;
+}
+
+@keyframes botonAHover {
+  0% {
+    transform: scale(1) rotate(1deg);
+    color: #ffc880;
+    background-color: green;
+    text-shadow: 0 0 3px rgb(134, 0, 0), 0 0 5px rgb(136, 136, 0);
+    box-shadow: 0 0 3px rgb(134, 0, 0), 0 0 10px rgb(136, 136, 0);
+  }
+  50% {
+    transform: scale(1.1) rotate(-2deg);
+    color: #ffb758;
+    background-color: rgb(1, 88, 1);
+    text-shadow: 0 0 3px red, 0 0 5px yellow;
+    box-shadow: 0 0 3px red, 0 0 10px yellow;
+  }
+  100% {
+    transform: scale(1) rotate(1deg);
+    color: #ffc880;
+    background-color: green;
+    text-shadow: 0 0 3px rgb(134, 0, 0), 0 0 5px rgb(136, 136, 0);
+    box-shadow: 0 0 3px rgb(134, 0, 0), 0 0 10px rgb(136, 136, 0);
+  }
+}
+
+@keyframes botonAPulsado {
+  0% {
+    transform: scale(1) rotate(1turn);
+  }
+
+  50% {
+    transform: scale(0.5) rotate(3turn);
+  }
+
+  100% {
+    transform: scale(1) rotate(5turn);
+  }
+}
+
+.botonCrearSala {}
+
+.botonCrearSala:hover{
+  animation: botonCHover 1s infinite;
+}
+
+.botonCrearSala:active{
+  animation: botonCPulsado 1s;
+}
+
+@keyframes botonCHover {
+  0% {
+    transform: scale(1) rotate(1deg) skew(0deg);
+    text-shadow: 0 0 3px rgb(0, 107, 134), 0 0 5px rgb(136, 136, 0);
+    box-shadow: 0 0 3px rgb(0, 134, 18), 0 0 10px rgb(136, 0, 118);
+  }
+  25% {
+    transform: scale(1.1) rotate(-2deg) skew(25deg);
+    text-shadow: 0 0 3px rgb(0, 204, 255), 0 0 5px rgb(255, 255, 0);
+    box-shadow: 0 0 3px rgb(0, 255, 34), 0 0 10px rgb(255, 0, 221);
+  }
+  50% {
+    transform: scale(1) rotate(1deg) skew(0deg);
+    text-shadow: 0 0 3px rgb(141, 141, 141), 0 0 5px rgb(136, 50, 0);
+    box-shadow: 0 0 3px rgb(170, 42, 80), 0 0 10px rgb(136, 0, 7);
+  }
+  75% {
+    transform: scale(1.1) rotate(-2deg) skew(-25deg);
+    text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 5px rgb(255, 94, 0);
+    box-shadow: 0 0 3px rgb(255, 64, 121), 0 0 10px rgb(255, 0, 13);
+  }
+  100% {
+    transform: scale(1) rotate(1deg) skew(0deg);
+    text-shadow: 0 0 3px rgb(0, 107, 134), 0 0 5px rgb(136, 136, 0);
+    box-shadow: 0 0 3px rgb(0, 134, 18), 0 0 10px rgb(136, 0, 118);
+  }
+}
+
+@keyframes botonCPulsado {
+  0% {
+    transform: scale(1) ;
+  }
+  25% {
+    transform: scaleX(6);
+  }
+  50% {
+    transform: scale(2.5) ;
+  }
+  75% {
+    transform: scaleX(6);
+  }
+  100% {
+    transform: scale(1) ;
+  }
+}
+
+/*
+@keyframes palpitacion {
+  0% {
+    transform: scale(100%) rotate(45deg);
+  }
+  50% {
+    transform: scale(175%) rotate(45deg);
+  }
+*/

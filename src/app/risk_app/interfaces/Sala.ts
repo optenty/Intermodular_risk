@@ -1,7 +1,8 @@
+import { UnaSala } from './UnaSala'; // Ruta al archivo donde se define UnaSala
 export interface Sala {
-  id_sala: number;
-  jugador1: number;
-  jugador2: number;
-  jugador3: number;
-  jugador4: number;
+  number: number;
+  size: number;
+  totalElements: number;
+  totalPages: number;
+  content: UnaSala[]
 }

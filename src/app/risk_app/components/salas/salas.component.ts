@@ -1,16 +1,23 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {Sala} from "../../interfaces/Sala";
+import {UnaSala} from "../../interfaces/UnaSala";
 
 @Component({
   selector: 'risk-salas',
   templateUrl: './salas.component.html',
   styleUrl: './salas.component.scss'
 })
-export class SalasComponent {
+export class SalasComponent implements OnInit{
   @Input()
-  public salaList: Sala[]=[];
+  public sala: Sala[]=[];
 
-  crearSala(){
+  public salaList : UnaSala[] = [];
+
+  ngOnInit(): void {
+
+    let obj = JSON.stringify(this.sala);
+    // @ts-ignore
+    this.salaList = obj.content;
 
   }
 

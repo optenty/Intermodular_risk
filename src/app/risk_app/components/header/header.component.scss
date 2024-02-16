@@ -8,3 +8,63 @@
 #menuNavBar a{
   color: white;
 }
+
+
+
+nav:hover a {
+  animation: navHover 0.1s;
+}
+
+nav a:hover {
+  animation: hoverA 0.75s infinite;
+}
+
+@keyframes navHover {
+  0%{}
+  20%{
+    transform: perspective(175px) rotateX(25deg) rotateY(25deg);
+
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+  }
+  40%{
+    transform: perspective(175px) rotateX(25deg) rotateY(-25deg);
+
+    color: #ffb758;
+    text-shadow: 0 0 3px red, 0 0 5px yellow;
+  }
+  60%{
+    transform: perspective(175px) rotateX(-25deg) rotateY(-25deg);
+
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+  }
+  80%{
+    transform: perspective(175px) rotateX(-25deg) rotateY(25deg);
+
+    color: #ffb758;
+    text-shadow: 0 0 3px red, 0 0 5px yellow;
+  }
+  100%{}
+}
+
+@keyframes hoverA {
+  0%{
+    transform: scale(1);
+
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+  }
+  50%{
+    transform: scale(1.1);
+
+    color: #ffb758;
+    text-shadow: 0 0 3px red, 0 0 5px yellow;
+  }
+  100%{
+    transform: scale(1);
+
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+  }
+}

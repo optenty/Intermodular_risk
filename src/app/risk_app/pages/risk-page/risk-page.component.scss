@@ -36,6 +36,8 @@
 }
 
 
+
+
 .player1{
   position: absolute;
   top: 25%;
@@ -43,6 +45,70 @@
   background-color: #1da1f2;
   color: white;
   text-align: center;
+}
+
+.player1:hover{
+  animation: p1Hover 1s;
+}
+
+@keyframes p1Hover {
+  0%{
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 25% 25% 25% 25%;
+
+    color: white;
+    background-color: #1da1f2;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+    box-shadow: 0 0 3px rgb(0, 26, 255), 0 0 10px rgb(0, 255, 242);
+  }
+  20%{
+    transform: scale(1);
+    border-radius: 0% 0% 0% 0%;
+
+    color: black;
+    background-color: #1779b6;
+    text-shadow: 0 0 3px rgb(0, 13, 134), 0 0 5px rgb(0, 136, 129);
+    box-shadow: 0 0 3px rgb(0, 13, 134), 0 0 10px rgb(0, 136, 129);
+  }
+  40%{
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 25% 25% 25% 25%;
+
+    color: white;
+    background-color: #1da1f2;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+    box-shadow: 0 0 3px rgb(0, 26, 255), 0 0 10px rgb(0, 255, 242);
+  }
+  60%{
+    transform: scale(1);
+    border-radius: 0% 0% 0% 0%;
+
+    color: black;
+    background-color: #1779b6;
+    text-shadow: 0 0 3px rgb(0, 13, 134), 0 0 5px rgb(0, 136, 129);
+    box-shadow: 0 0 3px rgb(0, 13, 134), 0 0 10px rgb(0, 136, 129);
+  }
+  80%{
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 25% 25% 25% 25%;
+
+    color: white;
+    background-color: #1da1f2;
+    text-shadow: 0 0 3px rgb(0, 26, 255), 0 0 5px rgb(0, 255, 242);
+    box-shadow: 0 0 3px rgb(0, 26, 255), 0 0 10px rgb(0, 255, 242);
+  }
+  100%{
+    transform: scale(1);
+    border-radius: 0% 0% 0% 0%;
+
+    color: black;
+    background-color: #1779b6;
+    text-shadow: 0 0 3px rgb(0, 13, 134), 0 0 5px rgb(0, 136, 129);
+    box-shadow: 0 0 3px rgb(0, 13, 134), 0 0 10px rgb(0, 136, 129);
+  }
 }
 
 .player2{
@@ -53,6 +119,29 @@
   left: 5%;
 }
 
+.player2:hover{
+  animation: p2Hover 1s;
+}
+
+@keyframes p2Hover {
+  0%{
+    transform: rotate(5turn);
+  }
+  25%{
+
+  }
+  50%{
+    border: 5px solid black;
+    border-radius: 100%
+  }
+  75%{
+
+  }
+  100%{
+    border-radius: 0%
+  }
+}
+
 .player3{
   background-color: #11b400;
   color: white;
@@ -61,12 +150,72 @@
   right: 5%;
 }
 
+.player3:hover{
+  animation: p3Hover 1s;
+}
+
+@keyframes p3Hover {
+  0%{
+
+  }
+  25%{
+    transform: skew(55deg,10deg);
+
+    border: 5px solid black;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  50%{
+    transform: skew(0deg,0deg) rotateY(360deg);
+  }
+  75%{
+
+    border: 5px solid black;
+    transform: skew(-55deg,-10deg);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+  }
+  100%{
+
+  }
+}
+
 .player4{
   background-color: #9a00b2;
   color: white;
   position: absolute;
   bottom: 25%;
   right: 5%;
+}
+
+.player4:hover {
+  animation: p4Hover 1s;
+}
+
+@keyframes p4Hover {
+  0%{
+
+  }
+  20%{
+    transform: perspective(175px) rotateX(45deg) rotateY(45deg);
+  }
+  40%{
+    transform: perspective(175px) rotateX(45deg) rotateY(-45deg);
+  }
+  50%{
+    border: 5px solid black;
+    border-radius: 30% 30% 30% 30%;
+  }
+  60%{
+    transform: perspective(175px) rotateX(-45deg) rotateY(-45deg);
+
+  }
+  80%{
+    transform: perspective(175px) rotateX(-45deg) rotateY(45deg);
+  }
+  100%{
+  }
 }
 
 .player{
