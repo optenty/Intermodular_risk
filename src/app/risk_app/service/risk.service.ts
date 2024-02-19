@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Sala} from "../interfaces/Sala";
 import {response} from "express";
+import {Observable} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class RiskService {
   constructor(private http: HttpClient) {
   }
 
-  public url = "http://localhost:8090/api/risk/"
+  public url = "http://localhost:8090/api/risk"
 
 
 
@@ -27,12 +28,15 @@ export class RiskService {
   }
 
 
-  crearSala(){
-    this.http.get<Sala>(this.url+'/crearsala').subscribe(response=>{
-      console.log(response);
-      return response;
-    })
+  crearSala(token: string): Observable<Sala> {
+    const headers = new HttpHeaders({
+      'Authorization': 'Bearer ' + token
+    });
+    return this.http.get<Sala>(this.url + '/crearsala', { headers: headers });
   }
+
+
+
 
   addPlayer(){
     this.http.get<Sala>(this.url+'/addplayer').subscribe(response=>{

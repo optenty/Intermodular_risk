@@ -2,31 +2,70 @@ body {
   padding-bottom: 60px; /* Altura del footer */
 }
 
-.footer {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 75px;
+
   background-color: #b94400; /* Color de fondo del footer */
-  padding: 10px 0;
+
   text-align: center;
 }
 
-a{
+footer:hover > div{
+  animation: showFooter 1s forwards;
+}
+
+@keyframes showFooter {
+  0% {
+  }
+  20% {
+    transform: translate(35%, 20%);
+  }
+  30% {
+    transform: translate(-35%, 20%);
+  }
+  40% {
+    transform: translate(35%, -20%);
+  }
+  60% {
+    transform: translate(-35%, -20%);
+  }
+  80% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+  }
+}
+
+
+div {
+  padding: 20px;
+  //transform: translateY(100%);
+}
+
+
+
+
+a {
   margin-left: 10px;
   color: white !important;
 }
-svg{
+
+svg {
   padding: 0;
   margin-right: 5px;
 }
-.footer span{
+
+footer span {
   color: white !important;
 
 }
-.footer{
-  z-index: 10;
-}
 
-.octicon-mark-github{
+
+.octicon-mark-github {
   margin-right: 1rem;
 }
+
+

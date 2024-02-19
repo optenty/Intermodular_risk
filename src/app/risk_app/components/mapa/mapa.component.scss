@@ -1,3 +1,89 @@
 .map{
   margin: 0 auto;
+  background-color: rgb(189, 145, 51);
+  border: 5px solid black;
+  border-radius: 1% 1% 1% 1%;
+}
+
+// Nord America
+#nordAmerica {
+  fill: darkgray !important;
+}
+
+#nordAmerica:hover > path {
+  fill: rgb(255, 0, 0) !important;
+}
+
+.nordAmericaBorder {
+  fill: rgb(255, 125, 125) !important;
+}
+
+// Sud America
+#sudAmerica {
+  fill: gray !important;
+}
+
+#sudAmerica:hover > path {
+  fill: rgb(238, 255, 0) !important;
+}
+
+.sudAmericaBorder {
+  fill: rgb(247, 255, 137) !important;
+}
+
+//  Europa
+#europa {
+  fill: gray !important;
+}
+
+#europa:hover > path {
+  fill: rgb(255, 82, 197) !important;
+}
+
+.europaBorder {
+  fill: rgb(46, 46, 46) !important;
+  fill-opacity: 1 !important;
+}
+
+// Africa
+#africa {
+  fill: gray !important;
+}
+
+#africa:hover > path{
+  fill: rgb(0, 255, 0) !important;
+}
+
+.africaBorder {
+  fill: rgb(112, 255, 112) !important;
+}
+
+// Asia
+#asia {
+  fill: gray !important;
+}
+#asia:hover > path {
+  fill: rgb(0, 0, 255) !important;
+}
+
+.asiaBorder {
+  fill: rgb(57, 57, 255) !important;
+}
+
+// Oceania
+#oceania {
+  fill: gray !important;
+}
+
+#oceania:hover > path {
+  fill: rgb(212, 0, 255) !important;
+}
+
+.oceaniaBorder {
+  fill: rgb(232, 120, 255) !important;
+}
+
+.border {
+  fill: rgb(46, 46, 46) !important;
+  fill-opacity: 1 !important;
 }

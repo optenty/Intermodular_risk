@@ -1,6 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Sala} from "../../interfaces/Sala";
 import {UnaSala} from "../../interfaces/UnaSala";
+import {RiskService} from "../../service/risk.service";
+import {AuthService} from "../../auth/service/auth.service";
 
 @Component({
   selector: 'risk-salas',
@@ -19,6 +21,16 @@ export class SalasComponent implements OnInit{
     // @ts-ignore
     this.salaList = obj.content;
 
+  }
+
+  crearSala(){
+    this.riskService.crearSala(this.authService.getToken()).subscribe(response => {
+      console.log(response);
+      // Creamos la sala
+    });
+  }
+
+  constructor(public riskService : RiskService, public authService : AuthService) {
   }
 
 }
