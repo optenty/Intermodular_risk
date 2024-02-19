@@ -11,7 +11,7 @@
     </thead>
     <tbody>
 
-    <tr *ngFor="let sala of salaList">
+    <tr *ngFor="let sala of sala.content">
       <td class="align-middle">Sala número: {{ sala.id_sala }}</td>
       <td>
         <!-- Mostrar los jugadores de la sala -->
@@ -30,8 +30,10 @@
     </tbody>
   </table>
   <hr>
-  <button class="btn btn-primary botonCrearSala" (click)="crearSala">
+  <button class="btn btn-primary botonCrearSala" (click)="crearSala()">
     Crear sala
   </button>
+
+  <div class="espaciador"></div>
 
 </div>

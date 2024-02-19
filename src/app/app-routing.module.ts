@@ -14,15 +14,11 @@ const routes: Routes = [
   },
   {
     path:'mygames',
-    component: MygamesPageComponent,
+    component: RiskPageComponent,
   },
   {
     path:'graph',
     component:GraphPageComponent,
-  },
-  {
-    path:'risk',
-    component: RiskPageComponent,
   },
   {
     path: 'error',

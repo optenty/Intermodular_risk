@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {RiskService} from "../../service/risk.service";
 import {Sala} from "../../interfaces/Sala";
 import {AuthService} from "../../auth/service/auth.service";
@@ -24,7 +24,9 @@ export class SalasPageComponent implements OnInit{
     this.salasApi();
   }
 
-  public salas: Sala[]=[];
+
+
+  public salas!: Sala;
 
   public salasPrueba: UnaSala[] = [
     {
@@ -45,8 +47,9 @@ export class SalasPageComponent implements OnInit{
   salasApi(){
     if (this.token != null) {
       this.riskService.getSalas(this.token).subscribe(
-        (data: Sala[]) => {
+        (data: Sala) => {
           // Este bloque se ejecutará cuando se reciban los datos del Observable
+          console.log(data);
           this.salas = data;
         },
         function (error: any) {
