@@ -106,22 +106,27 @@ export class MapaComponent {
     switch (zona){
       case "nordAmerica":
         console.log(zona);
-        this.editMode(["europa","asia","sudAmerica"]);
+        this.cancelarAtaque()
         break;
       case "europa":
         console.log(zona);
+        this.cancelarAtaque()
         break;
       case "oceania":
         console.log(zona);
+        this.cancelarAtaque()
         break;
       case "africa":
         console.log(zona);
+        this.cancelarAtaque()
         break;
       case "sudAmerica":
         console.log(zona);
+        this.cancelarAtaque()
         break;
       case "asia":
         console.log(zona);
+        this.cancelarAtaque()
         break;
     }
 
