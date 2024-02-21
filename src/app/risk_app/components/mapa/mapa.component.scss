@@ -11,8 +11,9 @@
 }
 
 #nordAmerica:hover > path {
-  fill: rgb(255, 0, 0) !important;
+  fill: #1da1f2! important;
 }
+
 
 
 .nordAmericaBorder {
@@ -25,12 +26,12 @@
 }
 
 #sudAmerica:hover > path {
-  fill: rgb(238, 255, 0) !important;
+  fill: #1da1f2 !important;
 }
 
-.sudAmericaBorder {
-  fill: rgb(247, 255, 137) !important;
-}
+//.sudAmericaBorder {
+//  fill: rgb(247, 255, 137) !important;
+//}
 
 //  Europa
 #europa {
@@ -38,7 +39,7 @@
 }
 
 #europa:hover > path {
-  fill: rgb(255, 82, 197) !important;
+  fill: #1da1f2 !important;
 }
 
 .europaBorder {
@@ -52,7 +53,7 @@
 }
 
 #africa:hover > path{
-  fill: rgb(0, 255, 0) !important;
+  fill: #1da1f2!important;
 }
 
 .africaBorder {
@@ -64,7 +65,7 @@
   fill: gray !important;
 }
 #asia:hover > path {
-  fill: rgb(0, 0, 255) !important;
+  fill: #1da1f2 !important;
 }
 
 .asiaBorder {
@@ -77,7 +78,7 @@
 }
 
 #oceania:hover > path {
-  fill: rgb(212, 0, 255) !important;
+  fill: #1da1f2 !important;
 }
 
 .oceaniaBorder {
@@ -87,4 +88,12 @@
 .border {
   fill: rgb(46, 46, 46) !important;
   fill-opacity: 1 !important;
+}
+
+.tropas{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgba(189, 145, 51,0.5);
+  padding: 1rem;
+
 }

@@ -7,7 +7,11 @@ import { Component, Renderer2 } from '@angular/core';
 })
 export class MapaComponent {
 
-  arrayPaises: string[]=["nordAmerica","europa","africa","sudAmerica","asia","oceania"]
+
+  arrayPaises: string[]=["nordAmerica","europa","africa","sudAmerica","asia","oceania"];
+
+
+  arrayPaisesPosibleAtaque: string[]=[];
 
   edit = false;
 
@@ -21,13 +25,14 @@ export class MapaComponent {
       console.log("Copia modificada:", nuevoArrayPaises);
       // Crear arrayModificado2 con los países restantes
       const arrayModificado2 = this.arrayPaises.filter(pais => paises.includes(pais));
+      this.arrayPaisesPosibleAtaque = arrayModificado2;
       console.log("Array Modificado 2:", arrayModificado2);
 
       nuevoArrayPaises.forEach((e)=>{
       const elementos = document.getElementsByClassName(e);
         for (let i = 0; i < elementos.length; i++) {
           const elemento = elementos[i];
-          this.renderer.setStyle(elemento, 'fill', 'darkgrey');
+          this.renderer.setStyle(elemento, 'fill', '#363636');
           // Añade más modificaciones de estilo según necesites
         }
       })
@@ -43,6 +48,7 @@ export class MapaComponent {
 
       // Aquí puedes hacer lo que necesites con la copia modificada
       this.edit = true;
+    }else{
     }
 
 
@@ -58,23 +64,22 @@ export class MapaComponent {
 
     switch (zona){
       case "nordAmerica":
-        console.log(zona);
-        this.editMode(["europa","asia","sudAmerica"]);
+        this.editMode(["europa","sudAmerica","asia"])
         break;
       case "europa":
-        console.log(zona);
+        this.editMode(["nordAmerica","africa","asia"])
         break;
       case "oceania":
-        console.log(zona);
+        this.editMode(["sudAmerica","africa","asia"])
         break;
       case "africa":
-        console.log(zona);
+        this.editMode(["europa","oceania","asia","sudAmerica"])
         break;
       case "sudAmerica":
-        console.log(zona);
+        this.editMode(["nordAmerica","oceania","africa"])
         break;
       case "asia":
-        console.log(zona);
+        this.editMode(["europa","nordAmerica","oceania","africa"]);
         break;
     }
 
@@ -91,7 +96,6 @@ export class MapaComponent {
         const elementos = document.getElementsByClassName(e) as HTMLCollectionOf<HTMLElement>;
         for (let i = 0; i < elementos.length; i++) {
           const elemento = elementos[i];
-          console.log(elemento);
           // Aplicar estilos predeterminados o eliminar el estilo en línea
           elemento.style.removeProperty('fill');
           elemento.removeEventListener('click', (event) => this.ataque(e));}
@@ -101,32 +105,33 @@ export class MapaComponent {
     }
   }
 
-  ataque(zona: string){
 
+  ataque(zona: string){
+    console.log("entro en ataque")
     switch (zona){
       case "nordAmerica":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
       case "europa":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
       case "oceania":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
       case "africa":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
       case "sudAmerica":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
       case "asia":
-        console.log(zona);
-        this.cancelarAtaque()
+        alert("ataco");
+        //aqui tendre que cancelar el ataque
         break;
     }
 
