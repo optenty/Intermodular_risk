@@ -13,17 +13,45 @@
   background-color: #ffc880; /* Cambia el color de fondo según tus preferencias */
 }
 
-.superior{
-  display: flex;
-  flex-direction: column;
+//.superior{
+//  display: flex;
+//  flex-direction: column;
+//}
+//
+//.inferior{
+//  display: flex;
+//  flex-direction: column;
+//
+//
+//}
+
+.superior > div{
+  //display: flex;
+  //flex-direction: column;
+
+  width: 7.5%;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
-.inferior{
-  display: flex;
-  flex-direction: column;
+.inferior > div{
+  //display: flex;
+  //flex-direction: column;
 
+  width: 7.5%;
 
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
+
+risk-mapa{
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+
 
 .jugador{
   width: 30%;

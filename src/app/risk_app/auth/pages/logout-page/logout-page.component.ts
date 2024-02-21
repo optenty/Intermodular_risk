@@ -21,4 +21,8 @@ export class LogoutPageComponent {
     this.router.navigate(['/']);
   }
 
+  cancel(){
+    alert('NO HAY VUELTA ATRÁS, CIERRA SESSIÓN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \nMUAJAJAJAJAAJAJ (RISA MALVADA)')
+  }
+
 }
